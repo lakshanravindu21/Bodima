@@ -1,0 +1,45 @@
+.page.about {
+  background-color: #ecf0f1;
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.page.about h2 {
+  font-size: 2.5rem;
+  color: #2980b9;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page.about p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page.about img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* About Page Styles */
+.page {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  

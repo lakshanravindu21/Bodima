@@ -1,0 +1,85 @@
+.login-page {
+  position: relative;
+  background-color: #ecf0f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login card center */
+.login-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-card h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card form input {
+  padding: 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.login-card form button {
+  padding: 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-card form button:hover {
+  background-color: #2ecc71;
+}
+
+.login-footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* BODIMA text at right center */
+.bodima-text {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bodima-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #27ae60;
+  font-family: 'Segoe UI', sans-serif;
+}

@@ -1,0 +1,83 @@
+.signup-page {
+  position: relative;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup card center */
+.signup-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  z-index: 1;
+}
+
+.signup-card h2 {
+  font-size: 2rem;
+  color: #2980b9;
+  margin-bottom: 20px;
+}
+
+.signup-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-card form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.signup-card form button {
+  padding: 12px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-card form button:hover {
+  background-color: #3498db;
+}
+
+.signup-footer {
+  margin-top: 20px;
+}
+
+.signup-footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.signup-footer a:hover {
+  text-decoration: underline;
+}
+
+/* BODIMA text at right center */
+.bodima-text {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bodima-text h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #27ae60;
+  font-family: 'Segoe UI', sans-serif;
+}
